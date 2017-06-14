@@ -901,6 +901,7 @@ STORE
         <item id="item_pet_cat" operation="unexist" />
         <item id="item_pet_hamster" operation="unexist" />
         <item id="item_pet_gold_fish" operation="unexist" />
+        <requirement exp="item.item_apartment.level gequal 1 || item.item_house.level gequal 1" />
       </requirements>
       <commands>
         <player type="change" state="money" value="-1250" />
@@ -914,6 +915,7 @@ STORE
         <item id="item_pet_cat" operation="unexist" />
         <item id="item_pet_hamster" operation="unexist" />
         <item id="item_pet_gold_fish" operation="unexist" />
+        <requirement exp="item.item_apartment.level gequal 1 || item.item_house.level gequal 1" />
       </requirements>
       <commands>
         <player type="change" state="money" value="-750" />
@@ -927,6 +929,7 @@ STORE
         <item id="item_pet_cat" operation="unexist" />
         <item id="item_pet_hamster" operation="unexist" />
         <item id="item_pet_gold_fish" operation="unexist" />
+        <requirement exp="item.item_apartment.level gequal 1 || item.item_house.level gequal 1" />
       </requirements>
       <commands>
         <player type="change" state="money" value="-200" />
@@ -940,6 +943,7 @@ STORE
         <item id="item_pet_cat" operation="unexist" />
         <item id="item_pet_hamster" operation="unexist" />
         <item id="item_pet_gold_fish" operation="unexist" />
+        <requirement exp="item.item_apartment.level gequal 1 || item.item_house.level gequal 1" />
       </requirements>
       <commands>
         <player type="change" state="money" value="-350" />
